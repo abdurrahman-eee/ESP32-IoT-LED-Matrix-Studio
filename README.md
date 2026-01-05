@@ -204,7 +204,48 @@ Audio Visualization: Add an analog microphone module (MAX4466) to make the matri
 RGB Upgrade: Port the logic to support WS2812B (NeoPixel) matrices for full-color animations.
 ---
 
-## 11. Conclusion
+## 11. Shape & Animation Reference Table
+
+You can control the matrix via API using `http://[IP]/set?id=[ID]`. Below is the complete list of IDs included in the firmware.
+
+### 🎬 Auto Modes & Animations
+| ID | Description | ID | Description |
+| :--- | :--- | :--- | :--- |
+| **999** | **Full Demo (Loop)** | **101** | Gear Rolling Animation |
+| **888** | Animation Only Loop | **102** | Pacman Game Animation |
+| **777** | Static Shape Loop | **103** | "MUSASHI" Typing |
+| **500** | Custom Text Scroll | **104** | "RAHMAN" Typing |
+
+### 🖼️ Static Shape Library (0-79)
+
+| ID | Geometric | ID | Icons | ID | Nature | ID | Games |
+|:---|:---|:---|:---|:---|:---|:---|:---|
+| **0** | OFF | **10** | Heart | **20** | Flower | **30** | Invader |
+| **1** | Full ON | **11** | Smile | **21** | Sun | **31** | Coin |
+| **2** | Circle | **12** | Sad | **22** | Star | **32** | Jewel |
+| **3** | Square | **13** | Check | **23** | Mushroom | **33** | Heart Filled |
+| **4** | Diamond | **14** | Up Arrow | **24** | Tree | **34** | Target |
+| **5** | X Cross | **15** | Down Arrow | **25** | Cloud | **35** | Sword |
+| **6** | Plus | **16** | Left Arrow | **26** | Heart Inv | **36** | Ghost |
+| **7** | Diag \ | **17** | Right Arrow | **27** | Snowflake | **37** | Pac Open |
+| **8** | Diag / | **18** | Hollow Dmd | **28** | Dmd Outline | **38** | Pac Closed |
+| **9** | Checker | **19** | Box A | **29** | Face | **39** | Shield |
+
+| ID | Islamic/Abstract | ID | Numbers | ID | Patterns | ID | Textures |
+|:---|:---|:---|:---|:---|:---|:---|:---|
+| **40** | Rub El Hizb | **50** | 0 | **60** | Hourglass Top | **70** | H-Band |
+| **41** | Mosque Dome | **51** | 1 | **61** | Hourglass Bot | **71** | V-Band |
+| **42** | Chevron L | **52** | 2 | **62** | Fancy Box | **72** | Double V |
+| **43** | Chevron R | **53** | 3 | **63** | Ring | **73** | Stripes |
+| **44** | Stripes H | **54** | 4 | **64** | Equal Bars | **74** | Fine Check |
+| **45** | Mesh | **55** | 5 | **65** | Lollipop | **75** | Blocks |
+| **46** | Box | **56** | 6 | **66** | Xmas Tree | **76** | Half Split |
+| **47** | Diamond Fill | **57** | 7 | **67** | Tall Box | **77** | Top/Bot |
+| **48** | Cross Thin | **58** | 8 | **68** | Bullseye | **78** | Corners |
+| **49** | Dot | **59** | 9 | **69** | Dmd Cross | **79** | Center |
+
+
+## 12. Conclusion
 This project demonstrates how to bridge low-level hardware control (Shift Registers, Multiplexing) with high-level software concepts (AJAX, Non-blocking I/O, REST APIs). It serves as a robust foundation for any advanced IoT display system.
 
-Project Lead: Abdur Rahman Repository: ESP32-IoT-LED-Matrix-Studio License: MIT License
+Project Lead: Md. Abdur Rahman Repository: ESP32-IoT-LED-Matrix-Studio License: MIT License

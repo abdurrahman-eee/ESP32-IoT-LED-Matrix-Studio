@@ -1,4 +1,4 @@
-# ESP32 "Musashi" IoT LED Matrix Studio
+# ESP32 "Custom Tex and Shape" IoT LED Matrix Studio
 
 **A professional, web-controlled 8×8 LED Matrix driven by an ESP32 and 74HC595 shift registers.**
 

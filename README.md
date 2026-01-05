@@ -51,6 +51,8 @@ This image shows the full collection of parts used in the project.
 Files:
 `image/component_knowledge.jpg`
 `image/component_knowledge1.jpg`
+![Component Image](image/component_knowledge.jpg)
+![Component Image](image/component_knowledge1.jpg)
 
 These images explain:
 
@@ -103,7 +105,7 @@ The image `component_knowledge.jpg` contains graphical explanation and bit patte
 
 File:
 `image/circuit.jpg`
-
+![Component Image](image/circuit.jpg)
 This schematic shows electrical connection between:
 
 * ESP32
@@ -126,7 +128,7 @@ Power supply:
 
 File:
 `image/hardware_connection.jpg`
-
+![Component Image](image/hardware_connection.jpg)
 This breadboard wiring diagram shows actual jumper wire routing.
 It corresponds directly to the schematic and can be followed step by step when assembling the hardware.
 
@@ -184,39 +186,8 @@ PlatformIO will compile and flash automatically.
 
 ---
 
-## 9. Adding Images in GitHub README
 
-Store images in folder:
-
-```
-image/
-```
-
-To show images in README:
-
-```
-![Component List](image/component.jpg)
-
-![Component Knowledge](image/component_knowledge.jpg)
-
-![Circuit Diagram](image/circuit.jpg)
-
-![Hardware Connection](image/hardware_connection.jpg)
-```
-
-You already uploaded:
-
-* circuit.jpg
-* component.jpg
-* component_knowledge.jpg
-* component_knowledge1.jpg
-* hardware_connection.jpg
-
-They can be placed wherever you want in the README.
-
----
-
-## 10. Troubleshooting
+## 9. Troubleshooting
 
 Nothing lights up:
 

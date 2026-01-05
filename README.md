@@ -140,7 +140,9 @@ The ESP32 hosts a website stored in its flash memory.
     * **Typing:** Click "MUSASHI" to see the name typed out letter-by-letter.
     * **Shapes:** Select from 50+ icons (Islamic Star, Checkmark, Weather, etc.).
     * **Stop:** Click the red "STOP" button to clear the matrix.
-![Hardware Wiring](image/webdemo.jpg)
+**Demo:**
+![Hardware Wiring](image/Demo1.jpeg)
+![Hardware Wiring](image/Demo2.jpeg)
 ---
 
 ## 8. Customization Guide
